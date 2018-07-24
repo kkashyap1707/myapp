@@ -7,9 +7,9 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=${NODE_ENV}
-      - PORT=${PORT}
-      - VIRTUAL_HOST=${VIRTUAL_HOST}
+      - NODE_ENV=52.77.223.186
+      - PORT=27017
+
 
 
 
