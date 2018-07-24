@@ -5,7 +5,8 @@ const assert = require('assert');
 
 // Connection URL
 //const url = 'mongodb://mongo:27017';
-const url = 'mongodb://52.77.223.186:27017';
+//const url = 'mongodb://52.77.223.186:27017';
+const url = 'mongodb://${process.env.MONGO_URI}:{process.env.MONGO_PORT}';
 
 
 // Database Name
