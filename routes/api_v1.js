@@ -8,7 +8,8 @@ const assert = require('assert');
 //const url = 'mongodb://52.77.223.186:27017';
 //const url = 'mongodb://${process.env.VIRTUAL_HOST}:${process.env.VIRTUAL_PORT}';
 const url = 'mongodb://${process.env.VIRTUAL_HOST}';
-//console.log("MONGO_URL = "+process.env.MONGO_URI);
+
+console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> ::  "+url);
 
 // Database Name
 const dbName = 'myproject';
