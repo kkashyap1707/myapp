@@ -5,11 +5,11 @@ const assert = require('assert');
 
 // Connection URL
 //const url = 'mongodb://mongo:27017';
-//const url = 'mongodb://52.77.223.186:27017';
+const url = 'mongodb://52.77.223.186:27017';
 //const url = 'mongodb://${process.env.VIRTUAL_HOST}:${process.env.VIRTUAL_PORT}';
-const url = 'mongodb://${process.env.VIRTUAL_HOST}';
+const url1 = 'mongodb://${process.env.VIRTUAL_HOST}';
 
-console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> ::  "+url);
+console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> ::  "+url1);
 
 // Database Name
 const dbName = 'myproject';
