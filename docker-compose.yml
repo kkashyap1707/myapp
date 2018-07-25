@@ -9,8 +9,8 @@ services:
     environment:
       - NODE_ENV=${NODE_ENV}
       - PORT=${PORT}
-      - VIRTUAL_HOST=${VIRTUAL_HOST}
-      - VIRTUAL_PORT=${PORT}
+      - VIRTUAL_HOST=52.77.223.186
+      - VIRTUAL_PORT=27017
 
 
 
