@@ -6,7 +6,7 @@ export NODE_ENV=qa
 export PORT=27017
 export VIRTUAL_HOST=$BASE_SITE
 docker-compose down
-docker-compose -p ${VIRTUAL_HOST} up -d
+#docker-compose -p ${VIRTUAL_HOST} up -d
 
 # prod
 #export NODE_ENV=production
